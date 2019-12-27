@@ -1,4 +1,4 @@
-![](https://github.com/CyberStrike/test-github-actions/workflows/default/badge.svg)
+![](https://github.com/CyberStrike/test-github-actions/workflows/Default/badge.svg)
 
 # www
 

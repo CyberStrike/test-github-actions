@@ -23,6 +23,6 @@ jobs:
       - name: Dependencies
         run: yarn
       - name: Build
-        run: yarn nuxt build
+        run: yarn nuxt generate
       - name: Deploy
         run: yarn push-dir --dir=dist --branch=gh-pages --cleanup

@@ -1,4 +1,5 @@
-Trigger git hub action 1
+![](https://github.com/CyberStrike/test-github-actions/workflows/default/badge.svg)
+
 # www
 
 > frontend.miami site

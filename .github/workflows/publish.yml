@@ -25,4 +25,4 @@ jobs:
       - name: Build
         run: yarn nuxt generate
       - name: Deploy
-        run: yarn push-dir --dir=dist --branch=gh-pages --cleanup
+        run: yarn push-dir --dir=dist --branch=gh-pages --cleanup --verbose

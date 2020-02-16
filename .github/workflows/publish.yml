@@ -24,9 +24,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm run generate
+      - name: Dependencies
+        run: yarn
 
-      - name: deploy
+      - name: Build
+        run: yarn nuxt generate
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}

@@ -42,6 +42,6 @@
         window.location.replace(this.redirectUrl)
       },
     },
-    mounted () { this.startTimer() }
+    mounted () { this.startTimer() },
   }
 </script>
